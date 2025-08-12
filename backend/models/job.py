@@ -6,7 +6,7 @@ from sqlalchemy import (
 )
 from sqlalchemy.sql import func
 
-from backend.db.database import Base
+from db.database import Base
 
 
 class StoryJob(Base):

@@ -11,10 +11,10 @@ from fastapi import (
 )
 from sqlalchemy.orm import Session
 
-from backend.db.database import get_db, SessionLocal
-from backend.models.story import Story, StoryNode
-from backend.models.job import StoryJob
-from backend.schemas.story import (
+from db.database import get_db, SessionLocal
+from models.story import Story, StoryNode
+from models.job import StoryJob
+from schemas.story import (
     CompleteStoryResponse,
     CompleteStoryNodeResponse,
     CreateStoryRequest
