@@ -19,7 +19,7 @@ from schemas.story import (
     CompleteStoryNodeResponse,
     CreateStoryRequest
 )
-from backend.schemas.job import StoryJobResponse
+from schemas.job import StoryJobResponse
 
 router = APIRouter(
     prefix='/stories',
