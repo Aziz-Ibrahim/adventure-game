@@ -14,7 +14,7 @@ class StoryJobResponse(BaseModel):
     """
     Schema for a story job response.
     """
-    job_id: int
+    job_id: str
     status: str
     created_at: datetime
     story_id: Optional[int] = None

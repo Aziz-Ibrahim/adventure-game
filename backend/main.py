@@ -3,7 +3,10 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from core.config import settings
 from routers import story, job
+from db.database import create_tables
 
+# Initialize the database tables
+create_tables()
 
 app = FastAPI(
     title="Interactive Adventure Game API",
