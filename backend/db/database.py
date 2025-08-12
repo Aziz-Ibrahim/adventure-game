@@ -6,7 +6,7 @@ from core.config import settings
 
 
 engine = create_engine(
-    settings.DATABASE_UR
+    settings.DATABASE_URL
 )
 
 SessionLocal = sessionmaker(
