@@ -8,7 +8,7 @@ function ThemeInput({onSubmit}) {
         e.preventDefault();
 
         if (!theme.trim()) {
-            setError("Please enter a theme name");
+            setError('Please enter a theme name!')
             return
         }
 
