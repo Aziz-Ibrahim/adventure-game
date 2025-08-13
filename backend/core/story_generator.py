@@ -24,7 +24,7 @@ class StoryGenerator:
         Initializes and returns the language model instance.
         """
         return ChatOpenAI(
-            model='gpt-4o-mini',
+            model='gpt-4o',
         )
     
     @classmethod
