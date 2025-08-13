@@ -1,4 +1,4 @@
-function LoadingStatus({}){
+function LoadingStatus({theme}){
     return <div className="loading-container">
         <h2>
             Generating Your {theme} Story
