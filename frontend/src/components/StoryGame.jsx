@@ -41,7 +41,6 @@ function StoryGame({story, onNewStory}) {
         }
     }
 
-    console.log('options', options)
     return <div className="story-game">
         <header className="story-header">
             <h2>{story.title}</h2>

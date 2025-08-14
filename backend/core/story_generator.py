@@ -32,7 +32,7 @@ class StoryGenerator:
         cls,
         db: Session,
         session_id: str,
-        theme: str = 'fantacy'
+        theme: str = 'fantasy'
         ) -> Story:
         """
         Generates a story based on the provided theme.
@@ -147,7 +147,7 @@ class StoryGenerator:
                     'node_id': child_node.id
                 })
 
-                node_options = options_list
+                node.options = options_list
 
         db.flush()
         return node
