@@ -34,9 +34,7 @@ class StoryGenerator:
                 base_url=serviceurl
             )
 
-        return ChatOpenAI(
-            model='gpt-4o-mini',
-        )
+        return ChatOpenAI(model='gpt-4o-mini')
     
     @classmethod
     def generate_story(
