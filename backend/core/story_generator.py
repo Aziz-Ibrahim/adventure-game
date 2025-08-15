@@ -24,8 +24,8 @@ class StoryGenerator:
         """
         Initializes and returns the language model instance.
         """
-        openai_api_key = os.getenv("CHOREO_OOPENAI_CONNECTION_OPENAI_API_KEY")
-        serviceurl = os.getenv("CHOREO_OOPENAI_CONNECTION_SERVICEURL")
+        openai_api_key = os.getenv("CHOREO_OPENAI_CONNECTION_OPENAI_API_KEY")
+        serviceurl = os.getenv("CHOREO_OPENAI_CONNECTION_SERVICEURL")
 
         if openai_api_key and serviceurl:
             return ChatOpenAI(
