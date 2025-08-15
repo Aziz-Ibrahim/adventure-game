@@ -35,7 +35,7 @@ class StoryGenerator:
             )
 
         return ChatOpenAI(
-            model='gpt-4o',
+            model='gpt-4o-mini',
         )
     
     @classmethod
